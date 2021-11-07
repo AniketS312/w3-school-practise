@@ -73,3 +73,33 @@ const button = document.getElementById('button');
 //     console.log(+randomNumber, +showPromt);
 // }
 
+///////////////// 33. Write a JavaScript program to check whether two numbers are in range 40..60 or in the range 70..100
+
+// function checkTwoNumbers(a, b) {
+//     if ((a <= 60 && a >= 40) && (b >= 40 && b <= 60)) return true;
+//     return false
+// }
+
+// Write a program to check whether a specified character exists within the 2nd to 4th position in a given string. 
+
+// function checkChar(str, char) {
+//     ctr = 0
+//     for (let i = 0; i < str.length; i++) {
+//         if((str.charAt(i) == char) && (i >= 1 && i <= 3)) {
+//            ctr = 1;
+//            break;
+//         }
+//     }
+//         if (ctr == 1) return true;
+//             return false;
+// }
+
+// Write a JavaScript program to check whether the last digit of the three given positive integers is same.
+
+// Write a JavaScript program to create new string with first 3 characters are in lower case from a given string. If the string length is less than 3 convert all the characters in upper case. 
+function convertString(passedString) {
+    if (passedString.length < 3 ) {
+        return passedString.toUpperCase();
+    }
+    frontPrt = (passedString.subString(0, 3))
+}
